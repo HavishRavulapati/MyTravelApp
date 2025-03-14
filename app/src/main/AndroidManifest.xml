@@ -15,7 +15,7 @@
 
         <activity
             android:name=".MainActivity"
-            android:exported="true">  <!-- This is required for Android 12+ -->
+            android:exported="true">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

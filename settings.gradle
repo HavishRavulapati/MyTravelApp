@@ -3,8 +3,7 @@ pluginManagement {
         google()
         mavenCentral()
         gradlePluginPortal()
-        // ✅ Added JitPack
-        maven { url = uri("https://jitpack.io") }
+        maven { url 'https://jitpack.io' }
     }
 }
 
@@ -13,8 +12,7 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
-        // ✅ Uncommented JitPack
-        maven { url = "https://jitpack.io" }
+        maven { url 'https://jitpack.io' }
     }
 }
 
